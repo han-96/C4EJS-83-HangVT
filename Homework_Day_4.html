@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+
 </body>
+
 </html>
 <script>
     //Khai báo tên
@@ -39,7 +42,7 @@
     // console.log("Bạn có biết tuổi của John không?\r\n " + person.firstName + " is " + person.age + " years old.")
 
     //-----------------------------------------------------------------------------------------------------------------
-    
+
     // console.log("Bài 3: \r\nChương trình chứa thông tin cá nhân về John:");
     // var person = {
     //     firstName: "John",
@@ -52,7 +55,7 @@
     // console.log("Họ tên đầy đủ của John là: " + person.fullName());
 
     //-----------------------------------------------------------------------------------------------------------------
-    
+
     // console.log("Bài 4:\r\nThông tin về cầu thủ Cristiano Ronaldo");
     // let cauThu = {
     //     ten: "Cristiano Ronaldo dos Santos Aveiro",
@@ -60,7 +63,7 @@
     //     quocTich: "Bồ Đào Nha"
     // };
     // console.log(cauThu);
-    
+
     // let yeuCau = prompt("Bạn có muốn nhập thêm thông tin của cầu thủ không \r\nNhập 'Y' nếu có, nhập 'N' nếu không");
     // if (yeuCau.toUpperCase() == "Y") {
     //     thongTinThem = prompt("Bạn muốn nhập thêm thông tin gì?")
@@ -74,8 +77,27 @@
     //     console.log("Câu trả lời không hợp lệ. Nhấn F5 để chạy lại chương trình");
     // }
 
+    // let player = {
+    //     name: "Cristiano Ronaldo",
+    //     yearOfBirth: 1985,
+    //     placeOfBirth: "Portugal"
+    // }
+    // do {
+    //     var userInput = prompt("Bạn có muốn nhập thêm thông tin gì của cầu thủ không (Nhập (Y) để thêm, (N) để bỏ qua) ?").toUpperCase()
+    //     if (userInput === 'Y') {
+    //         let userInput1 = prompt("Bạn muốn thêm thông tin gì ?")
+    //         let userInput2 = prompt("Giá trị của thông tin bạn muốn thêm là gì ?")
+    //         player[`${userInput1}`] = userInput2
+    //         console.log(player)
+    //     } else if (userInput === 'N') {
+    //         console.log("GoodBye")
+    //     } else {
+    //         alert("Bạn nhập sai rồi")
+    //     }
+    // }
+    // while (userInput === 'Y' || userInput !== 'N')
     //-----------------------------------------------------------------------------------------------------------------
-    
+
     // console.log("Bài 5:\r\nThông tin về cầu thủ Cristiano Ronaldo");
     // let cauThu = {
     //     ten: "Cristiano Ronaldo dos Santos Aveiro",
@@ -83,7 +105,7 @@
     //     quocTich: "Bồ Đào Nha"
     // };
     // console.log(cauThu);
-    
+
     // console.log("Sau đây chương trình sẽ cập nhật thông tin về cầu thủ Messi.")
     // cauThu.ten = "Lionel Messi";
     // cauThu.namSinh = 1987;
@@ -92,7 +114,7 @@
     // console.log(cauThu)
 
     //-----------------------------------------------------------------------------------------------------------------
-    
+
     // console.log("Bài 6:\r\nThông tin về cầu thủ Cristiano Ronaldo");
     // let cauThu = {
     //     ten: "Cristiano Ronaldo dos Santos Aveiro",
@@ -100,7 +122,7 @@
     //     quocTich: "Bồ Đào Nha"
     // };
     // console.log(cauThu);
-    
+
     // let yeuCau = prompt("Bạn có muốn xóa thông tin của cầu thủ không \r\nNhập 'Y' nếu có, nhập 'N' nếu không");
     // if (yeuCau.toUpperCase() == "Y") {
     //     thongTinXoa = prompt("Bạn muốn xóa thông tin gì? Nhập 'ten', 'namsinh', 'quoctich' lần lượt tương ứng với nội dung muốn xóa")
@@ -119,7 +141,29 @@
     // } else {
     //     console.log("Câu trả lời không hợp lệ. Nhấn F5 để chạy lại chương trình");
     // }
-    
+    //------
+        // Bài 6
+
+        // let player = {
+        //     name: "Cristiano Ronaldo",
+        //     yearOfBirth: 1985,
+        //     placeOfBirth: "Portugal"
+        // }
+
+        // do {
+        //     var userInput = prompt("Bạn có muốn xóa thông tin nào không (Nhập (Y) để xóa, (N) bỏ qua) ?").toUpperCase()
+        //     if (userInput == 'Y'){
+        //         let userInput1 = prompt("bạn muốn xóa thông tin nào ?")
+        //         delete player[`${userInput1}`]
+        //         console.log("Thông tin cầu thủ sau khi xóa: ", player)
+                
+        //     } else if (userInput == 'N'){
+        //         console.log("GoodBye")
+        //     } else {
+        //         alert ("Bạn nhập sai rồi !")
+        //     }
+        // } while (userInput === 'Y' || userInput !== 'N')
+
     //-----------------------------------------------------------------------------------------------------------------
 
     // console.log("Bài 7:");
@@ -130,7 +174,7 @@
     // };
     // console.log ("Thông tin ban đầu của inventory: ");
     // console.log(inventory);
-    
+
     // inventory.pocket = ['seashell', 'strange berry', 'lint'];
     // console.log("Kết quả sau khi thêm một thuộc tính pocket vào inventory:");
     // console.log(inventory);
@@ -164,13 +208,13 @@
     //-----------------------------------------------------------------------------------------------------------------
 
     // console.log("Bài 9: ");
-    // function tinhTong(a,b) {
-    //     return a+b;
+    // function tinhTong(a, b) {
+    //     return a + b;
     // }
     // console.log("Chương trình sẽ tính tổng hai tham số bạn nhập vào");
     // let a = parseFloat(prompt("Hãy nhập vào tham số a: "));
     // let b = parseFloat(prompt("hãy nhập vào tham số b: "));
-    // console.log("Kết quả là: " + tinhTong(a,b));
+    // console.log("Kết quả là: " + tinhTong(a, b));
 
     //-----------------------------------------------------------------------------------------------------------------
 
@@ -184,7 +228,7 @@
     // console.log("Chuỗi sau sửa: " + remove_dollar_sign(chuoiThu));
 
     //-----------------------------------------------------------------------------------------------------------------
-       
+
     // console.log("Bài 12: ");
     // (function () {
     //         console.log ("Hello! I called myself");
@@ -199,14 +243,14 @@
     // console.log("Giá trị của x: " + x)
 
     //-----------------------------------------------------------------------------------------------------------------
-    
+
     // console.log("Bài 14: So sánh function() và arrow function  =>"); 
     // console.log("Kết quả của chương trình 1: ");
     // hello = function() {
     //     return "Hello World!";
     // };
     // console.log(hello);
-    
+
     // console.log("Kết quả của chương trình 2: ");
     // hello = () => {
     //     return "Hello world";
@@ -219,27 +263,34 @@
     // console.log(hello("Universe!"))
 
     //-----------------------------------------------------------------------------------------------------------------
-    
+
     // console.log("Bài 16: ?Giống bài 15 nhỉ?");
     // let hello;
     // hello = (val) => "Hello " + val;
     // console.log(hello("Universe!"))
 
+    // let hello = (val) => {
+    //     return "Hello " + val
+    // }
+    // console.log(hello("Universe!"))
+
     //-----------------------------------------------------------------------------------------------------------------
-    
+
     // console.log("Bài 17: \r\n Chương trình chứa hàm x tính tích x, y");
-    // const x = (x, y) => {return x * y};
+    // const x = (x, y) => {
+    //     return x * y
+    // };
     // console.log("Trả kết quả của x, với hai tham số lần lượt là 5 và 5: ")
     // console.log(x(5,5));
 
     //-----------------------------------------------------------------------------------------------------------------
-    
+
     // console.log("Bài 18: ");
     // const x = (x, y) => {return x * y};
     // console.log('Ket qua 5 * 5 = ' + x(5, 5));
 
     //-----------------------------------------------------------------------------------------------------------------
-    
+
     // console.log("Bài 19: \r\n Chương trình chứa hàm tìm Max ");
     // function findMax() {
     //     let i;
@@ -255,7 +306,7 @@
     // console.log(findMax(4, 5, 6));
 
     //-----------------------------------------------------------------------------------------------------------------
-    
+
     // console.log("Bài 20: \r\n Chương trình chứa hàm tính tổng:");
     // function findSum(){
     //     let i;
@@ -269,7 +320,7 @@
     // console.log(findSum(1, 123, 500, 115, 44, 88));
 
     //-----------------------------------------------------------------------------------------------------------------
-    
+
     // console.log("Bài 21: \r\n Chương trình có hàm trả kết quả Họ và Tên đầy đủ")
     // let myObject = {
     //     firstName:"John",
@@ -279,9 +330,9 @@
     //     }
     //     }
     // console.log("Họ tên đầy đủ của John là: " + myObject.fullName());
-    
+
     //-----------------------------------------------------------------------------------------------------------------
-    
+
     // console.log("Bài 22: ")
     // let person = {
     //     fullName: function() {
@@ -298,9 +349,9 @@
     // }
     // let x = person.fullName.call(person1);
     // console.log(x);
-    
+
     //-----------------------------------------------------------------------------------------------------------------
-    
+
     // console.log("Bài 23: ");
     // let person = {
     //     fullName: function(city, country) {
@@ -317,9 +368,9 @@
     // }
     // let x = person.fullName.call(person1, "Oslo", "Norway");
     // console.log(x);
-    
+
     //-----------------------------------------------------------------------------------------------------------------
-    
+
     // console.log("Bài 24: ");
     // let counter = 0;
     // function add() {
@@ -331,7 +382,7 @@
     // console.log("The counter is: " + counter);
 
     //-----------------------------------------------------------------------------------------------------------------
-    
+
     // console.log("Bài 25: ");
     // function add() {
     //     var counter = 0;
@@ -344,7 +395,7 @@
     // console.log(add());
 
     //-----------------------------------------------------------------------------------------------------------------
-    
+
     // console.log("Bài 26: ");
     // console.log("Chương trình 1: ");
     // function conThoAnCo() {                             
@@ -359,7 +410,7 @@
     // }
     // conThoAnCo();                                        
     // hotel();
-    
+
     // console.log("Chương trình 2: ");
     // function conThoAnCo(callback007) {
     //         setTimeout(function() {
@@ -377,18 +428,18 @@
     // }
     // conThoAnCo(callback);
 
-    // console.log("Chương trình 3: ");
-    // function conThoAnCo(callback007) {
-    //     setTimeout(function() {
-    //         console.log('con thỏ ăn cỏ, uống nước');
-    //         callback007(); // điệp viên báo cáo cho sếp !
-    //     }, 3000);
-    //     }
-    // function hotel() {
-    //     console.log('chui vô hotel');
-    // }
-    // conThoAnCo(function() {                                              
-    //     hotel();
-    // });
-    
+    console.log("Chương trình 3: ");
+    function conThoAnCo(callback007) {
+        setTimeout(function() {
+            console.log('con thỏ ăn cỏ, uống nước');
+            callback007(); // điệp viên báo cáo cho sếp !
+        }, 3000);
+        }
+    function hotel() {
+        console.log('chui vô hotel');
+    }
+    conThoAnCo(function() {                                              
+        hotel();
+    });
+
 </script>
