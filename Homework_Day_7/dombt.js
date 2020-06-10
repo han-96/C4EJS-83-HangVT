@@ -33,10 +33,11 @@ let tenCauThuNhap = document.getElementById("nhapTenCauThu");
 tenCauThuNhap.addEventListener("keypress",function(data){
     if (data.keyCode == 13) {
         them_cau_thu(tenCauThuNhap.value);
+        tenCauThuNhap.value = ''
     }
 })
 
 //-------------------------------------------------
 
-console.log("Bài tập 4:");
+// console.log("Bài tập 4:");
 
